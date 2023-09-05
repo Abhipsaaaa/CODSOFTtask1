@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    background-color: rgb(150, 190, 166);
+    min-height: 200vh;
+    border-color:50px rgb(6, 45, 88);
+
+}
+
+.content{
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.top section{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.top section h1{
+    font-size: 60px;
+    font-weight: bold;
+    color: rgb(173, 21, 21);
+    text-transform: uppercase;
+}
+.image_container,
+img{
+    border-radius: 50%;
+    overflow: hidden;
+}
+.image_container,
+img{
+    width: 300px;
+    height: 320px;
+}
+.about_section{
+    margin-top: 50px;
+}
+.about_section p{
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 1.2px;
+
+}
+.biography_section{
+    margin-top: 50px;
+
+}
+.biography_section h2{
+    margin-bottom: 20px;
+
+}
+.biography_section ul{
+    margin-left: 50px;
+    font-size: 20px;
+    font-style: oblique;
+
+}
+.biography_section li{
+    margin-bottom: 15px;
+    margin-left: 50px;
+
+}
+footer{
+    margin: 50px;
+}
+footer p{
+    text-align: left;
+}
